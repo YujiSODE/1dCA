@@ -34,6 +34,10 @@
 #   	this procedure sets and returns a new estimated rules
 #   	- $map: text map that is composed of 0, 1 and newline character (Unicode U+000A)
 #   	- $N: number of cells to scan
+#
+# - `::1dCA::setRule rules;`
+#   	procedure that sets and returns a new rules for one-dimensional cellular automaton
+#   	- $rules: a list of rules for one-dimensional cellular automaton, and every element is expressed as `name=value`
 #--------------------------------------------------------------------
 #
 #*** <namespace ::tcl::mathfunc> ***
@@ -67,8 +71,9 @@ proc ::tcl::mathfunc::avg {list} {
 #*** <namespace ::1dCA> ***
 namespace eval ::1dCA {
 	#=== variables ===
+	variable RULE {};
 		#--- rule samples ---
-		variable RULE {111=0 110=0 101=0 100=1 011=1 010=1 001=1 000=0 name=rule_30};
+		#variable RULE {111=0 110=0 101=0 100=1 011=1 010=1 001=1 000=0 name=rule_30};
 		#variable RULE {111=0 110=1 101=0 100=1 011=1 010=0 001=1 000=0 name=rule_90};
 		#
 		#variable RULE {111=0.5 110=0.25 101=0.125 100=1 011=1 010=1 001=1 000=0 name=rule_30_modified};
@@ -198,4 +203,12 @@ proc ::1dCA::scan {map N} {
 	#
 	set ::1dCA::RULE $rules;
 	return $rules;
+};
+#
+#procedure that sets and returns a new rules for one-dimensional cellular automaton
+proc ::1dCA::setRule {rules} {
+	# - $rules: a list of rules for one-dimensional cellular automaton, and every element is expressed as `name=value`
+	###
+	variable ::1dCA::RULE $rules;
+	return $::1dCA::RULE;
 };
