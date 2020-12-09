@@ -12,6 +12,7 @@ Newly estimated rule is expressed with probability that a cellular automaton ret
 
 ## 2. Concept
 ### Rule for one-dimensional cellular automaton
+
     [c1|c2|c3]
     [--|c0|--]
  
