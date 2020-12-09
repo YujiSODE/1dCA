@@ -7,6 +7,10 @@
 #	See LICENSE or http://opensource.org/licenses/mit-license.php
 ##===================================================================
 #Tool to estimate the rule for one-dimensional cellular automata
+#--------------------------------------------------------------------
+#
+#`::1dCA::scan map N;` scans given map regarding as one-dimensional cellular automata to estimate the rule  
+#Newly estimated rule is expressed with probability that a cellular automaton returns value of 1
 #
 #=== Synopsis ===
 #
@@ -31,7 +35,8 @@
 #
 # - `::1dCA::scan map N;`
 #   	procedure that scans given map regarding as one-dimensional cellular automata to estimate the rule  
-#   	this procedure sets and returns a new estimated rules
+#   	this procedure sets and returns a new estimated rules  
+#   	estimated rule is expressed with probability that a cellular automaton returns value of 1
 #   	- $map: text map that is composed of 0, 1 and newline character (Unicode U+000A)
 #   	- $N: number of cells to scan
 #
@@ -143,6 +148,7 @@ proc ::1dCA::run {rules seq N} {
 #
 #procedure that scans given map regarding as one-dimensional cellular automata to estimate the rule
 #this procedure sets and returns a new estimated rules
+#estimated rule is expressed with probability that a cellular automaton returns value of 1
 proc ::1dCA::scan {map N} {
 	# - $map: text map that is composed of 0, 1 and newline character (Unicode U+000A)
 	# - $N: number of cells to scan
