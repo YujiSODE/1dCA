@@ -22,6 +22,6 @@ Newly estimated rule is expressed with probability that a cellular automaton ret
 
 ## 3. Script
 - [`1dCA.tcl`](1dCA.tcl)
-- [v0.2+][`xyToMap.tcl`](xyToMap.tcl): tool to generate 01 text map from standard inputs
+- [0.2+][`xyToMap.tcl`](xyToMap.tcl): tool to generate 01 text map from standard inputs
 
 It requires Tcl 8.6+.
