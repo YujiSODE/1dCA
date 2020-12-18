@@ -22,10 +22,10 @@
 #   	valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`  
 #
 #   	- $width and $height: integer values that are not less than 2
-#   	-$x0 and $y0: optional coordinates values for the top left of a map, which 0 or integers are available
+#   	- $x0 and $y0: optional coordinates values for the top left of a map, which 0 or integers are available
 #   	- $fileName: an optional file name to output in the current directory
 #
-#<output file>
+#=== output file ===
 #output file has value of the generated map as Tcl variable `$1dCA_MAP`
 ##===================================================================
 #
