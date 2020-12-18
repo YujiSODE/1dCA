@@ -2,7 +2,10 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
-## Changed
+## Change
+- [`README.md`] lines 12-14:  
+      #
+
 - [`README.md`] line 12:  
       ### [0.2+][`xyToMap.tcl`](xyToMap.tcl): text map from standard inputs
 
