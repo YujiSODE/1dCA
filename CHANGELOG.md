@@ -4,7 +4,9 @@
 ## [0.2 beta] -2020-12-18
 ## Change
 - [`README.md`] lines 12-14:  
-      #
+      
+      ### [0.2+][`xyToMap.tcl`](xyToMap.tcl): text map from standard inputs
+       Text map can be generated from standard inputs with `xyToMap.tcl`.
 
 - [`README.md`] line 12:  
       ### [0.2+][`xyToMap.tcl`](xyToMap.tcl): text map from standard inputs
