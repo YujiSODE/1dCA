@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+## Added
+- [`README.md`] lines 12-13:  
+      - `$map`: text map that is composed of 0, 1 and newline character (Unicode U+000A)
+      - `$N`: number of cells to scan
 
 ## Changed
 - [`README.md`] lines 12-14:  
