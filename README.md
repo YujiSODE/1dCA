@@ -9,6 +9,7 @@ ______
 Tool to estimate the rule for one-dimensional cellular automata.  
 `::1dCA::scan map N;` scans given map regarding as one-dimensional cellular automata to estimate the rule.  
 Newly estimated rule is expressed with probability that a cellular automaton returns value of 1.
+### [0.2+] To generate 01 text map from standard inputs
 
 ## 2. Concept
 ### Rule for one-dimensional cellular automaton
@@ -16,9 +17,9 @@ Newly estimated rule is expressed with probability that a cellular automaton ret
     [c1|c2|c3]
     [--|c0|--]
  
-- `rule(c1|c2|c3) => c0`
+- `rule(c1,c2,c3) => c0`
 - `c0,c1,c2 and c3 = 0|1`
-- `0 ≤ rule(c1|c2|c3) ≤ 1`
+- `0 ≤ rule(c1,c2,c3) ≤ 1`
 
 ## 3. Script
 - [`1dCA.tcl`](1dCA.tcl)
