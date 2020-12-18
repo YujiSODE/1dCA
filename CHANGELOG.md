@@ -2,6 +2,14 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+## Changed
+- [`README.md`] lines 23-26:  
+
+      >It accepts standard inputs to generate text map, and returns a new text map.  
+      >Generated map data is output in the current directory when `$fileName` is given.  
+      >`END` is a valid keyword for standard input to finish input.  
+      >Valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`.
+
 ## Added
 - [`README.md`] lines 16-26:  
 
