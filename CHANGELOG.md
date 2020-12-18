@@ -2,8 +2,15 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+## Changed
+- [`README.md`] line 22:  
+      - `0 ≤ rule(c1,c2,c3) ≤ 1`
+
+- [`README.md`] line 20:  
+      - `rule(c1,c2,c3) => c0`
+
 ## Added
-- [`README.md`] line 28: `### [0.2+] To generate 01 text map from standard inputs`
+- [`README.md`] line 12: `### [0.2+] To generate 01 text map from standard inputs`
 
 ## Changed
 - [`xyToMap.tcl`] line 28: `#=== output file ===`
