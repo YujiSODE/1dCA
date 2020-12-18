@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [0.2 beta] - 2020-12-18
 ## [0.2 beta] -2020-12-18
 ## Added
 - [`README.md`] lines 28-31:  
