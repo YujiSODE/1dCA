@@ -2,9 +2,12 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+## Added
+- [`README.md`] line 28: `### [0.2+] To generate 01 text map from standard inputs`
+
 ## Changed
-- [`xyToMap.tcl`] line 28: ` #=== output file ===`
-- [`xyToMap.tcl`] line 25: ` #   	- $x0 and $y0: optional coordinates values for the top left of a map, which 0 or integers are available`
+- [`xyToMap.tcl`] line 28: `#=== output file ===`
+- [`xyToMap.tcl`] line 25: `#   	- $x0 and $y0: optional coordinates values for the top left of a map, which 0 or integers are available`
 
 ## [0.2 beta] -2020-12-15
 ## Changed
