@@ -2,6 +2,7 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+
 ## Changed
 - [`README.md`] lines 12-14:  
       
