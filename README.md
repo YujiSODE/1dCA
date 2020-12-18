@@ -25,6 +25,10 @@ Text map can be generated from standard inputs with `xyToMap.tcl`.
 >`END` is a valid keyword for standard input to finish input.  
 >Valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`.
 
+- `$width` and `$height`: integer values that are not less than 2
+- `$x0` and `$y0`: optional coordinates values for the top left of a map, which 0 or integers are available
+- `$fileName`: an optional file name to output in the current directory
+
 ## 2. Concept
 ### Rule for one-dimensional cellular automaton
 
