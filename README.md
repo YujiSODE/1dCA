@@ -20,10 +20,10 @@ Text map can be generated from standard inputs with `xyToMap.tcl`.
 **Tcl**  
 `xyToMap width height ?x0 y0 ?fileName??;`
 
-It accepts standard inputs to generate text map, and returns a new text map.  
-Generated map data is output in the current directory when `$fileName` is given.  
-`END` is a valid keyword for standard input to finish input.  
-Valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`.
+>It accepts standard inputs to generate text map, and returns a new text map.  
+>Generated map data is output in the current directory when `$fileName` is given.  
+>`END` is a valid keyword for standard input to finish input.  
+>Valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`.
 
 ## 2. Concept
 ### Rule for one-dimensional cellular automaton
