@@ -3,7 +3,22 @@
 
 ## [0.2 beta] -2020-12-18
 ## Added
+- [`README.md`] lines 16-26:  
+
+      Text map can be generated from standard inputs with `xyToMap.tcl`.  
+      
+      **Shell**  
+      `tclsh xyToMap.tcl width height ?x0 y0 ?fileName??;`  
+      **Tcl**  
+      `xyToMap width height ?x0 y0 ?fileName??;`
+
+It accepts standard inputs to generate text map, and returns a new text map.  
+Generated map data is output in the current directory when `$fileName` is given.  
+`END` is a valid keyword for standard input to finish input.  
+Valid xy coordinates are expressed as `x,y` or `x1,y1 x2,y2 ... xn,yn`.
+
 - [`README.md`] lines 12-13:  
+
       - `$map`: text map that is composed of 0, 1 and newline character (Unicode U+000A)
       - `$N`: number of cells to scan
 
@@ -17,9 +32,11 @@
       ### [0.2+][`xyToMap.tcl`](xyToMap.tcl): text map from standard inputs
 
 - [`README.md`] line 22:  
+
       - `0 ≤ rule(c1,c2,c3) ≤ 1`
 
 - [`README.md`] line 20:  
+
       - `rule(c1,c2,c3) => c0`
 
 ## Added
