@@ -2,6 +2,14 @@
 ## [Unreleased]
 
 ## [0.2 beta] -2020-12-18
+## Added
+- [`README.md`] lines 28-31:  
+
+      - `$width` and `$height`: integer values that are not less than 2
+      - `$x0` and `$y0`: optional coordinates values for the top left of a map, which 0 or integers are available
+      - `$fileName`: an optional file name to output in the current directory
+      
+
 ## Changed
 - [`README.md`] lines 23-26:  
 
