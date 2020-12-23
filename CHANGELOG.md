@@ -1,6 +1,10 @@
 # Change Log 
 ## [Unreleased]
 
+## [0.21 beta] -2020-12-23
+## Added
+- [`1dCA.tcl`]: `::1dCA::getSeq` is procedure that returns a particular generation sequence in a given map.
+
 ## Released: [0.2 beta] - 2020-12-18
 ## [0.2 beta] -2020-12-18
 ## Added

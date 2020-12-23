@@ -43,6 +43,11 @@
 # - `::1dCA::setRule rules;`
 #   	procedure that sets and returns a new rules for one-dimensional cellular automaton
 #   	- $rules: a list of rules for one-dimensional cellular automaton, and every element is expressed as `name=value`
+#
+# - `::1dCA::getSeq map ?n?;`
+#   	procedure that returns a particular generation sequence in a given map
+#   	- $map: text map that is composed of 0, 1 and newline character (Unicode U+000A)
+#   	- $n: an optional index for n-th generation to return, and 0 is default value
 #--------------------------------------------------------------------
 #
 #*** <namespace ::tcl::mathfunc> ***
@@ -217,4 +222,15 @@ proc ::1dCA::setRule {rules} {
 	###
 	variable ::1dCA::RULE $rules;
 	return $::1dCA::RULE;
+};
+#
+#procedure that returns a particular generation sequence in a given map
+proc ::1dCA::getSeq {map {n 0}} {
+	# - $map: text map that is composed of 0, 1 and newline character (Unicode U+000A)
+	# - $n: an optional index for n-th generation to return, and 0 is default value
+	###
+	set n [expr {abs(int($n)}];
+	set mapList [split $map \n];
+	#
+	return [lindex $mapList $n];
 };
